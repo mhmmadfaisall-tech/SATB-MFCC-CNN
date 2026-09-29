@@ -1,0 +1,20 @@
+{
+  "label_to_index": {
+    "Soprano": 0,
+    "Alto": 1,
+    "Tenor": 2,
+    "Bass": 3
+  },
+  "index_to_label": {
+    "0": "Soprano",
+    "1": "Alto",
+    "2": "Tenor",
+    "3": "Bass"
+  },
+  "target_frames": 358,
+  "input_shape": [
+    40,
+    358,
+    4
+  ]
+}

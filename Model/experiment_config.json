@@ -1,0 +1,92 @@
+{
+  "project_name": "SATB CNN Hybrid Features",
+  "drive_project_dir": "/content/drive/MyDrive/SATB_Model",
+  "local_fallback_dir": "/content/SATB_Model",
+  "classes": [
+    "Soprano",
+    "Alto",
+    "Tenor",
+    "Bass"
+  ],
+  "internal_variations": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+  ],
+  "external_variations": [
+    "R1",
+    "R2",
+    "R3"
+  ],
+  "secondary_variations": [
+    "R1",
+    "R2",
+    "R3"
+  ],
+  "secondary_folder_name": "Sekunder",
+  "supported_extensions": [
+    ".wav",
+    ".mp3",
+    ".m4a",
+    ".ogg",
+    ".aac",
+    ".mp4"
+  ],
+  "sample_rate": 16000,
+  "mono": true,
+  "pcm_subtype": "PCM_16",
+  "silence_gap_ms": 400,
+  "trim_top_db": 25,
+  "random_seed": 42,
+  "train_ratio": 0.7,
+  "validation_ratio": 0.15,
+  "test_ratio": 0.15,
+  "n_mfcc": 40,
+  "n_fft": 2048,
+  "hop_length": 512,
+  "window": "hann",
+  "max_target_frames": 700,
+  "n_chroma": 12,
+  "hybrid_features": [
+    "MFCC",
+    "Delta MFCC",
+    "Delta-Delta MFCC",
+    "Chroma STFT"
+  ],
+  "input_channels": 4,
+  "use_specaugment": true,
+  "freq_mask_max_width": 3,
+  "time_mask_max_width": 25,
+  "num_freq_masks": 1,
+  "num_time_masks": 1,
+  "learning_rate": 0.005,
+  "epochs": 100,
+  "batch_size": 32,
+  "patience": 10,
+  "clipnorm": 1.0,
+  "label_smoothing": 0.05,
+  "conv_filters": [
+    32,
+    64,
+    128
+  ],
+  "kernel_size": [
+    3,
+    3
+  ],
+  "l2": 0.0001,
+  "spatial_dropout": [
+    0.15,
+    0.2,
+    0.25
+  ],
+  "dense_units": 64,
+  "dense_dropout": 0.3,
+  "reduce_lr_factor": 0.5,
+  "reduce_lr_patience": 3,
+  "restore_best_weights": true
+}

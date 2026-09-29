@@ -1,0 +1,29 @@
+{
+    "classes": [
+        "Soprano",
+        "Alto",
+        "Tenor",
+        "Bass"
+    ],
+    "label_to_index": {
+        "Soprano": 0,
+        "Alto": 1,
+        "Tenor": 2,
+        "Bass": 3
+    },
+    "index_to_label": {
+        "0": "Soprano",
+        "1": "Alto",
+        "2": "Tenor",
+        "3": "Bass"
+    },
+    "sample_rate": 16000,
+    "trim_top_db": 25,
+    "n_mfcc": 40,
+    "n_fft": 2048,
+    "hop_length": 512,
+    "window": "hann",
+    "target_frames": 358,
+    "mean": -17.690027236938477,
+    "std": 90.41949462890625
+}
