@@ -1,0 +1,2 @@
+status,accuracy,precision_macro,recall_macro,f1_macro,total_inference_time_seconds,average_inference_time_seconds,average_inference_time_ms,samples_tested
+ok,0.8582089552238806,0.8572011322011321,0.8565862177603558,0.8551123472021328,0.3446724830000676,0.0012860913544778642,1.2860913544778643,268

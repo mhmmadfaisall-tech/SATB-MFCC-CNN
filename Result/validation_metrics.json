@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "accuracy": 0.909967845659164,
+  "precision_macro": 0.9081628684763163,
+  "recall_macro": 0.9076520428007231,
+  "f1_macro": 0.9076091162358768,
+  "total_inference_time_seconds": 0.6088151590001871,
+  "average_inference_time_seconds": 0.001957605012862338,
+  "average_inference_time_ms": 1.9576050128623381,
+  "samples_tested": 311
+}
